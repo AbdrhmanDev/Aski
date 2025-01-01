@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "123",
+      "country": "egypt",
+      "interests": ["html", "css"],
+      "followers": 5,
+      "bio": "this is bio",
+      "userImage": "image.jpg"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "123",
+      "country": "cairo",
+      "interests": ["html", "css"],
+      "followers": 2,
+      "bio": "this is bio",
+      "userImage": "image.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "title": "How to learn JavaScript?",
+      "content": "I am new to programming. Can someone guide me on how to start learning JavaScript effectively?",
+      "likes": 15,
+      "saved": true,
+      "userId": 1,
+      "datePosted": "2-2-2025",
+      "tags": ["html", "css"],
+      "answers": [
+        {
+          "id": 101,
+          "content": "Start with basics like variables and functions, and practice a lot.",
+          "likes": 10,
+          "userId": 2,
+          "replies": [
+            {
+              "id": 201,
+              "content": "I agree, practice is the key.",
+              "likes": 3,
+              "userId": 1
+            },
+            {
+              "id": 202,
+              "content": "Don't forget to learn ES6 features too!",
+              "likes": 5,
+              "userId": 2
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "content": "Try online tutorials and freeCodeCamp.",
+          "likes": 8,
+          "userId": 1,
+          "replies": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "How to learn Html?",
+      "content": "I am new to programming. Can someone guide me on how to start learning JavaScript effectively?",
+      "likes": 15,
+      "saved": false,
+      "userId": 1,
+      "datePosted": "2-2-2025",
+      "tags": ["html", "javascript", "c#"],
+      "answers": []
+    }
+  ]
+}
